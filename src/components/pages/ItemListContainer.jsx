@@ -6,7 +6,7 @@ import { Container, Typography, capitalize } from '@mui/material';
 
 const ItemListContainer = ({ greeting }) => {
   return (
-    <div>
+    <div style={{textAlign:"-webkit-center"}}>
       <h2 style={{backgroundColor:"lightblue", width:"26rem", fontFamily:"monospace"}}>{greeting}</h2>
       {/* <ProductCard/> */}
     </div>
