@@ -1,9 +1,9 @@
 import Navbar from "./components/layout/navbar";
-import ItemListContainer from "./components/pages/ItemListContainer"
-import { CarritoProvider } from './components/common/CarritoContext';
+import ItemListContainer from "./components/pages/ItemListContainer";
+import { CarritoProvider } from "./components/common/CarritoContext";
 
 function App() {
-  return (  
+  return (
     <div>
       <CarritoProvider>
         <Navbar />
@@ -13,4 +13,4 @@ function App() {
   );
 }
 
-export default App
+export default App;
